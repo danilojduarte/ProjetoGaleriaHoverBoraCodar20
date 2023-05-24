@@ -53,3 +53,24 @@ header i {
 main {
     margin-left: 50.6rem;
 }
+
+.model-1 .container:nth-child(1) {
+    grid-row: 1/3;
+}
+
+.model-1 .container:nth-child(1) img,
+.model-2 .container:nth-child(3)img {
+    aspect-ratio: 9/16;
+}
+
+.horizontal {
+    grid-column: 1/3;
+}
+
+.horizontal img {
+    aspect-ratio: 16/9;
+}
+.model-2 .container:nth-child(3) {
+    grid-column: 2;
+    grid-row: 1/3;
+}
